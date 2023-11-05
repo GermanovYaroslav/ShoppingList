@@ -116,6 +116,7 @@ class ShopItemFragment : Fragment() {
         }
         buttonSave.setOnClickListener {
             viewModel.editShopItem(etName.text?.toString(), etCount.text?.toString())
+
         }
     }
 
